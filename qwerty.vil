@@ -57,14 +57,14 @@
         -1,
         -1,
         "KC_LCTRL",
-        "KC_LGUI",
+        "KC_LSHIFT",
         "LT1(KC_ENTER)",
         -1,
         -1,
         -1,
         -1,
         "KC_LALT",
-        "KC_LSHIFT",
+        "KC_LGUI",
         "LT2(KC_SPACE)"
       ],
       [
