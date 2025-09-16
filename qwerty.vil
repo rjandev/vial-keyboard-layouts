@@ -12,7 +12,7 @@
         "KC_R",
         "KC_T",
         -1,
-        "KC_NO",
+        "KC_INSERT",
         "KC_P",
         "KC_O",
         "KC_I",
@@ -21,14 +21,14 @@
       ],
       [
         -1,
-        "KC_NO",
+        "KC_LCTRL",
         "KC_A",
         "KC_S",
         "KC_D",
         "KC_F",
         "KC_G",
         -1,
-        "KC_NO",
+        "KC_ENTER",
         "KC_SCOLON",
         "KC_L",
         "KC_K",
@@ -58,13 +58,13 @@
         -1,
         "KC_LCTRL",
         "KC_LSHIFT",
-        "LT1(KC_ENTER)",
+        "LT1(KC_SPACE)",
         -1,
         -1,
         -1,
         -1,
         "KC_LALT",
-        "KC_LGUI",
+        "TD(0)",
         "LT2(KC_SPACE)"
       ],
       [
@@ -97,7 +97,7 @@
         "KC_NO",
         "KC_NO",
         "KC_NO",
-        "KC_NO",
+        "LSFT(KC_4)",
         "LSFT(KC_3)",
         "KC_EQUAL"
       ],
@@ -127,9 +127,9 @@
         "KC_KP_ASTERISK",
         -1,
         "KC_NO",
-        "LSFT(KC_GRAVE)",
+        "M0",
         "KC_NO",
-        "KC_NO",
+        "LSFT(KC_MINUS)",
         "KC_MINUS",
         "KC_KP_PLUS"
       ],
@@ -222,7 +222,7 @@
         -1,
         "KC_ESCAPE",
         "KC_LSHIFT",
-        "KC_TAB",
+        "LT3(KC_TAB)",
         -1,
         -1,
         -1,
@@ -339,7 +339,24 @@
   ],
   "layout_options": -1,
   "macro": [
-    [],
+    [
+      [
+        "down",
+        "KC_LSHIFT"
+      ],
+      [
+        "tap",
+        "KC_GRAVE"
+      ],
+      [
+        "up",
+        "KC_LSHIFT"
+      ],
+      [
+        "tap",
+        "KC_SPACE"
+      ]
+    ],
     [],
     [],
     [],
@@ -360,8 +377,8 @@
   "via_protocol": 9,
   "tap_dance": [
     [
-      "KC_F",
-      "KC_LCTRL",
+      "KC_ENTER",
+      "KC_LGUI",
       "KC_NO",
       "KC_NO",
       200
@@ -512,6 +529,7 @@
       "options": 7
     }
   ],
+  "alt_repeat_key": [],
   "settings": {
     "1": 0,
     "2": 50,
